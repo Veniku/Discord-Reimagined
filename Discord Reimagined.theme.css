@@ -1,0 +1,59 @@
+//META{"name":"Discord Reimagined","description":"Taking what is already there while slowly but carefully nailing down each element to perfection.","author":"Neku","version":".test"}*//
+/*  ____ _                            _
+   / ___| |__   __ _ _ __  _ __   ___| |___
+  | |   | '_ \ / _` | '_ \| '_ \ / _ \ / __|
+  | |___| | | | (_| | | | | | | |  __/ \__ \
+   \____|_| |_|\__,_|_| |_|_| |_|\___|_|___/ */
+
+.guild-channels .channel-text .channel-name:before {
+    content: '';
+}
+.guild-channels .channel-text a{
+      padding: 8px 6px 10px 17px;
+}
+
+
+
+
+ /*__     __    _             ____ _           _
+   \ \   / /__ (_) ___ ___   / ___| |__   __ _| |_
+    \ \ / / _ \| |/ __/ _ \ | |   | '_ \ / _` | __|
+     \ V / (_) | | (_|  __/ | |___| | | | (_| | |_
+      \_/ \___/|_|\___\___|  \____|_| |_|\__,_|\__| */
+
+.guild-channels .channel-voice:hover .channel-voice-states li .avatar-small {
+    width: 38px;
+    height: 38px;
+    background-size: 38px 38px;
+}
+.guild-channels .channel-voice .channel-voice-states li .avatar-small {
+    transition: width .3s, height .3s, background-size .3s;
+    transition-delay: .5s;
+}
+.guild-channels .channel-voice.audio .channel-arrow,
+.guild-channels .channel-voice.audio .icon-lock {
+    opacity: 0;
+}
+.guild-channels .channel-voice .channel-arrow {
+    transition: opacity .3s, margin .3s;
+    opacity: 0;
+    margin-right: -16px;
+}
+.guild-channels .channel-voice:hover .channel-arrow {
+    opacity: 1;
+    margin-right: 8px;
+}
+.guild-channels .channel-voice-states {
+    padding-left: 0px;
+}
+.channels-wrap {
+    width: 224px;
+}
+
+
+
+/*__  __                _                 _
+ |  \/  | ___ _ __ ___ | |__   ___ _ __  | |__   __ _ _ __
+ | |\/| |/ _ \ '_ ` _ \| '_ \ / _ \ '__| | '_ \ / _` | '__|
+ | |  | |  __/ | | | | | |_) |  __/ |    | |_) | (_| | |
+ |_|  |_|\___|_| |_| |_|_.__/ \___|_|    |_.__/ \__,_|_| */
