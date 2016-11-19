@@ -14,7 +14,6 @@
 
 
 
-
  /*__     __    _             ____ _           _
    \ \   / /__ (_) ___ ___   / ___| |__   __ _| |_
     \ \ / / _ \| |/ __/ _ \ | |   | '_ \ / _` | __|
@@ -48,4 +47,83 @@
 }
 .channels-wrap {
     width: 224px;
+}
+
+
+
+/* buttons */
+.account .btn-group {
+    border: 1px solid transparent;
+}
+.account .btn-deafen, .account .btn-settings {
+    -webkit-box-shadow: inset 0px 0 0;
+}
+.account .btn-deafen, .account .btn-mute {
+    border-right: 1px solid transparent;
+}
+.account .btn {
+    background: transparent;
+}
+.account .account-details {
+    padding-right: 0px;
+}
+.account {
+    height: 56px;
+}
+
+/* voice connection buttons */
+#voice-connection .btn-group {
+    border: 1px solid transparent;
+}
+#voice-connection .btn-disconnect {
+    -webkit-box-shadow: inset 1px 0 0 transparent;
+}
+#voice-connection .btn-info {
+    border-right: 1px solid transparent;
+}
+#voice-connection .btn {
+    background: transparent;
+  }
+#voice-connection {
+    padding-right: 4px;
+}
+
+/* Animation */
+.guild-channels .channel a {
+  transition: 0.1s;
+}
+
+
+/* sidebar */
+.guilds-wrapper .guilds .guild.unread:before {
+    height: 50px;
+    border-radius: 0px;
+    margin-top: -25px;
+}
+.guilds-wrapper .guilds .guild.selected:before, .guilds-wrapper .guilds .guild.unread:before {
+    height: 50px;
+    left: -14px;
+    margin-top: -25px;
+    border-radius: 0px;
+}
+.guilds-wrapper .guilds .guild .guild-inner {
+    border-radius: 0px !important;
+}
+.guilds-wrapper .guilds .guild+.guild {
+    margin-top: 2px;
+}
+.guilds-wrapper .guilds {
+    padding: 18px 0 18px 6px;
+}
+.guilds-wrapper {
+    width: 58px;
+}
+.guilds-wrapper .guilds .guild .badge {
+    bottom: -2px;
+    right: -2px;
+}
+.badge {
+    border-radius: 0px;
+    border: solid 2px #1e2124;
+    -webkit-box-shadow: 0 0px 0 rgba(0,0,0,.25),inset 0 0px 0 rgba(255,255,255,.15);
 }
